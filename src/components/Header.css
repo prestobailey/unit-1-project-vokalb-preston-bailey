@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEEEA;
+    padding: 1rem;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.hamburger {
+    position: absolute;
+    left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Literata', serif;
+    letter-spacing: 1px;
+}
+
+.black {
+    color: black;
+}
+
+.red {
+    color: crimson;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  flex-direction: column;
+
+  
+  align-items: flex-start;
+
+  padding: 1rem;
+  z-index: 1000;
+  border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu a {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 0;  
+}

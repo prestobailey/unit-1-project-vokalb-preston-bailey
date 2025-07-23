@@ -1,0 +1,25 @@
+.quiz-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.25rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.option input {
+    margin-right: 0.5rem;
+}
+
+.option.selected {
+    background: #e0e0e0;
+    font-weight: bold;
+}

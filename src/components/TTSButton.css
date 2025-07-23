@@ -1,0 +1,15 @@
+.tts-button {
+    background: #eee;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: background-color 0.2s;
+}
+
+.tts-button:hover {
+    background: #ddd;
+}
