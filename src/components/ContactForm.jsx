@@ -1,5 +1,6 @@
 import React from 'react';
 import '../pages/About.css';
+import Button from './Button';
 
 // Reusable contact form component
 const ContactForm = ({ formData, onChange, onSubmit }) => {
@@ -37,7 +38,7 @@ const ContactForm = ({ formData, onChange, onSubmit }) => {
         />
       </label>
 
-      <button type="submit">Send</button>
+      <Button label="Send" onClick={onSubmit} />
     </form>
   );
 };
