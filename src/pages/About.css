@@ -17,3 +17,34 @@
   margin-bottom: 1rem;
   font-size: 1.1rem;
 }
+
+.contact-form {
+  width: 100%;
+  max-width: 360px;
+  margin: 2rem auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  background: black;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
