@@ -47,7 +47,7 @@ html, body {
   margin: 0;
 }
 
-
+/* Flexbox for pushing footer to bottom VERY IMPORTANT */
 #root, .app-container {
   display: flex;
   flex-direction: column;

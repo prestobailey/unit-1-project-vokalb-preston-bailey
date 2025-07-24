@@ -40,6 +40,8 @@ const alphabet = [
   { letter: 'Zh', pronunciation: 'zhuh' },
 ];
 
+// Alphabet Lesson Page Framework that utilizes the Text-to-Speech functionality
+// Each letter is clickable and will pronounce the letter when clicked
 const AlphabetLesson = () => (
   <div className="alphabet-lesson">
     <h2>Albanian Alphabet</h2>

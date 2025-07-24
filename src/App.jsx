@@ -6,9 +6,11 @@ import Home from './pages/Home.jsx';
 import Lessons from './pages/Lessons.jsx';
 import AlphabetLesson from './pages/AlphabetLesson.jsx';
 import GreetingsLesson from './pages/GreetingsLesson.jsx';
-import Quiz from './pages/Quiz.jsx';
+import Quiz from './pages/Quiz';
+import About from './pages/About.jsx';
 import './styles.css';
 
+// If you tilt your head to the right it kind of resembles a rocket
 function App() {
   return (
     <Router>
@@ -19,7 +21,8 @@ function App() {
           <Route path="/lessons" element={<Lessons />} />
           <Route path="/lessons/alphabet" element={<AlphabetLesson />} />
           <Route path="/lessons/greetings" element={<GreetingsLesson />} />
-          <Route path="/quiz/:lessonId" element={<Quiz />} />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
       <Footer />

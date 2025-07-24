@@ -2,6 +2,7 @@ import React from 'react';
 import LessonCard from '../components/LessonCard.jsx';
 import './Lessons.css';
 
+// Lessons Page Avaiblability
 const Lessons = () => {
   const lessons = [
     {
@@ -16,6 +17,7 @@ const Lessons = () => {
     },
   ];
 
+// Lessons Page Framework
   return (
     <div className="lessons-page">
       <h2>Lessons</h2>

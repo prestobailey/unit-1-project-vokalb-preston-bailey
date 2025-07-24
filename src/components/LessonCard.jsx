@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LessonCard.css';
 
+// Reuable lesson card component
 const LessonCard = ({ title, description, path }) => {
   const nav = useNavigate();
   return (

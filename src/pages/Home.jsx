@@ -5,13 +5,13 @@ const Home = () => {
   const [time, setTime] = useState(new Date());
   const [weather, setWeather] = useState(null);
 
-  // Clock tick
+  // Clock 
   useEffect(() => {
     const id = setInterval(() => setTime(new Date()), 1000);
     return () => clearInterval(id);
   }, []);
 
-  // Fetch WeatherAPI data
+  // Fetch WeatherAPI data, usisng the key from .env 
   useEffect(() => {
     const key = import.meta.env.VITE_WEATHERAPI_KEY;
     if (!key) {
@@ -36,11 +36,13 @@ const Home = () => {
       });
   }, []);
 
+  // Home Page
   return (
     <div className="dashboard">
       <h1>Welcome to VOKALB!</h1>
+      <h3>It's time to learn some Albanian.</h3>
       <p>
-        🕒 Current time in Tirana:{' '}
+        Current time in Tirana:{' '}
         {time.toLocaleTimeString('sq-AL', {
           timeZone: 'Europe/Tirane',
           hour: '2-digit',
